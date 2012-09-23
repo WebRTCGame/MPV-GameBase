@@ -1,0 +1,5 @@
+*.DS_Store
+deploy
+*.pyc
+scripts/BeautifulSoup.py
+assets/*.wav

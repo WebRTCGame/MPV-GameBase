@@ -9,39 +9,18 @@
 </head>
 
 <body>
-<canvas id='tower_defense' width="600" height="400"></canvas>
-
-
-
+<canvas id='Game' width="600" height="400"></canvas>
 
 <div id="js_imports">
-<!-- Putting script elements as late in the document as possible gives
-    a better, faster initial render. -->
-	<script src="game/vector.js" type="text/javascript" charset="utf-8" ></script>
-	
-	<script src="game/zones.js" type="text/javascript" charset="utf-8" ></script>
-	
-	<script src="game/pathfinding-browser.js" type="text/javascript" charset="utf-8" ></script>
-	
 
 	<script src="jsfprocessing.js" type="text/javascript" charset="utf-8" ></script>
 	<script src="jquery-1.2.6.min.js" type="text/javascript" charset="utf-8" ></script>
-	<script src="game/creep_waves.js" type="text/javascript" charset="utf-8" ></script>
-	<script src="game/terrain.js" type="text/javascript" charset="utf-8" ></script>
-	<script src="game/util.js" type="text/javascript" charset="utf-8" ></script>
-	<script src="game/creeps.js" type="text/javascript" charset="utf-8" ></script>
-	<script src="game/ui_modes.js" type="text/javascript" charset="utf-8" ></script>
 
-	<script src="game/ptd.js" type="text/javascript" charset="utf-8" ></script>
-	<script src="jquery.ui-1.5/ui/effects.core.js" type="text/javascript" charset="utf-8"></script>
-	<script src="jquery.ui-1.5/ui/effects.highlight.js" type="text/javascript" charset="utf-8"></script>
 </div>
 
 <script type="text/javascript" charset="utf-8">
-    $(document).ready(function() { start_tower_defense(); })
+    $(document).ready(function() { Game_Init(); })
 </script>
-
-<hr/>
 
 </body>
 </html>
